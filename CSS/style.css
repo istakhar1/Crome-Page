@@ -1,0 +1,186 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+/*  start header area style */
+.google-header
+{
+    width: 100%;
+    max-height: 500px;
+    padding: 8px;
+    float: right;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.google-header
+{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.gmail-img
+{
+   
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
+
+}
+.header-icon
+{
+    float: right;
+    width: 200px;
+    margin-top: 32px;
+    margin-right: 15px;
+}
+.header-icon .fa-th
+{
+    font-size: 20px;
+    margin-top: 5px;
+    color: gray;
+    float: right;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.header-icon .fa-bell{
+    font-size: 20px;
+    margin-top: 5px;
+    color: gray;
+    float: right;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.header-icon .fa-th:hover
+{
+    color: #000;
+}
+.header-icon .fa-bell:hover{
+    color: #000;
+}
+
+.header-icon #gmail,#image{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+.header-icon #gmail:hover,#image:hover{
+    color: gray;
+}
+
+/*  end header area style */
+/*  Start Search area style */
+
+.google-search{
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.google-image img{
+    margin: 100px auto 10px;
+    width: 250px;
+    /* cursor: pointer; */
+}
+.input-group{
+    margin: 13px auto 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    max-width: 550px;
+    background-color: #F5F5F5;
+    opacity: 1;
+}
+
+.form-control{
+    border: none !important;
+    border-radius: 20px !important;
+    background: #F5F5F5;
+}
+.input-group-text{
+    background: transparent !important;
+    border: none !important;
+}
+.input-group .fas {
+    color: gray;
+    
+}
+#input-text{
+    outline: none;
+    padding: 5px 0px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+}
+
+.input-group .fa-microphone{
+    cursor: pointer;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+input{
+    outline: none !important;
+    border: 2px solid red;
+}
+#icon1 ,#icon2{
+    background: white;
+}
+
+/*  end Serch area style */
+
+
+/*  start Bookmarkstyle */
+.bookmarks{
+    width: 500px;
+    /* margin-top: 5px; */
+    font-family: sans-serif;
+    display: block;
+    left: 51%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.col-md-4{
+    width: 120px !important;
+    padding: none !important;
+}
+
+.site{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.site:hover{
+   
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.site p{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.site .fa{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left:35px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding-top: 12px;
+}
+/*  end Book mark style */
