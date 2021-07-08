@@ -1,3 +1,20 @@
+#bigfig
+{
+ 
+    /* padding: 5px; */
+    margin: auto;
+    background:blueviolet;
+    /* background-image: url(https://picsum.photos/4180/3760);  */
+    /* padding-left: 30px; */
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+
 *{
  margin: 0;
  padding: 0;   
@@ -45,7 +62,7 @@
 {
     font-size: 20px;
     margin-top: 5px;
-    color: gray;
+    color:white;
     float: right;
     margin-right: 20px;
     cursor:pointer;
@@ -53,29 +70,33 @@
 .header-icon .fa-bell{
     font-size: 20px;
     margin-top: 5px;
-    color: gray;
+    color: white;
     float: right;
     margin-right: 20px;
     cursor:pointer;
 }
 .header-icon .fa-th:hover
 {
-    color: #000;
+    color :white;
+    font-size: 22px;
+    border-radius: 25%;
 }
 .header-icon .fa-bell:hover{
-    color: #000;
+ font-size: 26px;
 }
 
 .header-icon #gmail,#image{
     float: right;
     margin-right: 15px;
     margin-top: 5px;
-    color: #333;
+    color: white;
+    font-weight:500;
     text-decoration: none;
     font-size: 14px;
 }
 .header-icon #gmail:hover,#image:hover{
-    color: gray;
+    color: white;
+    text-decoration: underline;
 }
 
 /*  end header area style */
@@ -117,9 +138,9 @@
     outline: none;
     padding: 5px 0px;
     background: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 25px;
-    box-shadow: 3px 3px 3px 3px whitesmoke;
+    box-shadow: 2px 2px 2px 2px white;
 }
 
 .input-group .fa-microphone{
@@ -131,7 +152,7 @@
 
 input{
     outline: none !important;
-    border: 2px solid red;
+    border: 1px solid white;
 }
 #icon1 ,#icon2{
     background: white;
@@ -141,14 +162,19 @@ input{
 
 
 /*  start Bookmarkstyle */
+
 .bookmarks{
-    width: 500px;
-    /* margin-top: 5px; */
+     width: 35% ; 
+     height: 35%;
     font-family: sans-serif;
-    display: block;
-    left: 51%;
-    transform: translateX(-50%);
-    position: absolute;
+    display: grid;
+    grid-template-rows:120px 120px ;
+    flex-wrap:nowrap;;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 32%;
+
 }
 
 .col-md-4{
@@ -157,30 +183,42 @@ input{
 }
 
 .site{
-    width: 120px;
-    height: 120px;
+    width: 112px;
+    height: 112px;
     border-radius: 5px;
+    z-index: 999;
 }
 
 .site:hover{
    
-    background-color: #f5f5f5;
+    background: rgba(0,0,0,0.4);
     cursor: pointer;
 }
 .site p{
     margin-top: 10px;
     font-size: 12px;
+    color: white;
     text-align: center;
 }
 .site .fa{
     font-size: 25px;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     margin-left:35px;
     margin-top: 20px;
     border-radius: 50%;
     background-color: #d3d3d3;
     text-align: center;
     padding-top: 12px;
+}
+.site{
+    flex-wrap:nowrap;
+    background:transparent;
+    align-self: center;
+    flex-shrink: 3;
+}
+#icon1 , #icon2{
+    background: transparent;
+    border-radius: 50%;
 }
 /*  end Book mark style */
