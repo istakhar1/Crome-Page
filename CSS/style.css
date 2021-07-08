@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;   
    }
-body
+#bigfig
 {
  
     /* padding: 5px; */
     /* margin: auto; */
-    /* background:rebeccapurple; */
-    background-image: url(https://picsum.photos/4180/3760); 
+    background:rebeccapurple;
+    /* background-image: url(https://picsum.photos/4180/3760);  */
     /* padding-left: 30px; */
     /* height: 90%; */
     background-position:100%;
@@ -242,11 +242,21 @@ overflow-x:hidden;
 }
 #openbar1{
     width: 400px;
+    position: absolute;
+    right: 0px;
+    top: 65px;
     display: none;
+    z-index: 900;
+    
 } 
 
 #openbar2{
-display: none;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 65px;
+    z-index: 900;
+
 }
 .col-sm{
     padding: 3px 3px;
@@ -267,3 +277,7 @@ display: none;
     align-items: center;
 }
 /*  end drop box style */
+
+.temp{
+    z-index: 999 !important;
+}
