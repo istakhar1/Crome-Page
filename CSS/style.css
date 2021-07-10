@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;   
    }
-#bigfig
+body
 {
  
     /* padding: 5px; */
     /* margin: auto; */
-    background:rebeccapurple;
-    /* background-image: url(https://picsum.photos/4180/3760);  */
+    /* background:rebeccapurple; */
+    background-image: url(https://picsum.photos/4180/3760); 
     /* padding-left: 30px; */
     /* height: 90%; */
     background-position:100%;
@@ -113,7 +113,7 @@
     /* cursor: pointer; */
 }
 .input-group{
-    margin: 13px auto 10px;
+ margin: 13px auto 0px;
     border: 1px solid whitesmoke;
     border-radius: 20px;
     max-width: 550px;
@@ -155,9 +155,9 @@ input{
     outline: none !important;
     border: 1px solid white;
 }
-#icon1 ,#icon2{
+/* #icon1 ,#icon2{
     background: white;
-}
+} */
 
 /*  end Serch area style */
 
@@ -192,7 +192,7 @@ input{
 
 .site:hover{
    
-    background: rgba(0,0,0,0.4);
+    background: rgba(250, 249, 249, 0.1);
     cursor: pointer;
 }
 .site p{
@@ -212,6 +212,20 @@ input{
     text-align: center;
     padding-top: 12px;
 }
+.site .fab{
+    font-size: 25px;
+    width: 48px;
+    height: 48px;
+    margin-left:35px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+
 .site{
     flex-wrap:nowrap;
     background:transparent;
@@ -229,24 +243,36 @@ input{
   
   width: 350px;
   height: 500px;
-  top:10;
-  right:15;
-  padding: 30px 30px;
-  margin-right: 15px;
-  margin-top: 10px;
+
+  padding: 30px 0px 30px 35px ;
+  /* margin-right: 15px;
+  margin-top: 10px; */
   background: white;
   border-radius: 10px;
   overflow-y:auto; 
 overflow-x:hidden;
+display: flex;
+justify-content: center;
+/* align-content: center; */
+
+
+
+}
+.container{
+    display: flex;
+justify-content: space-around;
+/* align-content: center; */
+flex-direction: column;
 
 }
 #openbar1{
-    width: 400px;
+    width: 360px;
     position: absolute;
     right: 0px;
     top: 65px;
     display: none;
     z-index: 900;
+  
     
 } 
 
@@ -281,3 +307,104 @@ overflow-x:hidden;
 .temp{
     z-index: 999 !important;
 }
+
+/* drop down div */
+.s-drop{
+  
+    margin-top: 0px;
+    max-width: 550px;
+    /* display: flex; */
+    /* width:550px;
+    height: 350px; */
+    margin-left: 29%;
+    height: 300px;
+    background: red;
+    border-radius: 20px;
+    /* justify-content: center;
+    align-content:flex-start; */
+ 
+}
+.p-2{
+    width: 100%;
+    background: red;
+    border: black;
+
+}
+.login-bar{
+    justify-content:flex-start;
+    align-items: center;
+}
+.open1{
+    /* border: 2px solid black; */
+    width: 300px;
+    font-family: sans-serif;
+    padding: 2px 2px;
+    margin: 4px 4px;
+}
+
+#pop_up_img{
+    padding: 2px 2px;
+    margin-left: 36%;
+    border-radius: 50%;
+
+    height: 90px;
+    width: 80px;
+}
+#m-account{
+    background: whitel;
+    font-family: sans-serif;
+    font-weight: 200;
+    font: 20;
+    border: 1px solid rgb(231, 226, 226);
+    border-radius: 25px;
+    width: 200px;
+    padding: 2px;
+   margin-left: 45px;
+}
+#m-account:hover{
+    background: rgb(231, 226, 226);
+
+}
+
+
+#openbar1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #openbar1{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  #openbar2::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #openbar2{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .mail-photo{
+      margin-top: 20px;
+      border-top: 1px solid rgb(214, 213, 213);
+      border-bottom: 1px solid rgb(212, 209, 209);
+      display: flex;
+      grid-template-rows: 1fr 6fr;
+      box-sizing: border-box;
+      column-gap: 10px;
+      height: 60px;
+      width: 100rem;
+  }
+  .mail-photo:hover{
+      background: rgb(241, 240, 240);
+  }
+  .name-div{
+      /* grid-row: 1; */
+    
+      display: grid;
+      grid-template-rows: 1fr 3fr;
+      text-align: center;
+  }
