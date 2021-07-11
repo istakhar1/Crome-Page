@@ -11,9 +11,11 @@ body
     background-image: url(https://picsum.photos/4180/3760); 
     /* padding-left: 30px; */
     /* height: 90%; */
+
     background-position:100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   
 
 }
@@ -316,9 +318,9 @@ flex-direction: column;
     /* display: flex; */
     /* width:550px;
     height: 350px; */
-    margin-left: 29%;
+    margin-left: 20%;
     height: 300px;
-    background: red;
+    /* background: red; */
     border-radius: 20px;
     /* justify-content: center;
     align-content:flex-start; */
@@ -408,3 +410,25 @@ flex-direction: column;
       grid-template-rows: 1fr 3fr;
       text-align: center;
   }
+
+  /* drop down style */
+ 
+  .input-group{
+      display: none;
+      justify-content:left;
+      /* align-items:flex-start; */
+  }
+  .search-item{
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    display: inline-table;
+   
+
+}
+  #drop-down{
+      height: 300px;
+      display: none;
+  }
+.items{
+    cursor: default ;
+}

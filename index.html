@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </head>
-<body>
+<body class="body1">
     <!-- ********************************* start Header area ************************************** -->
     <div id="bigfig">
     <div class="google-header">
@@ -161,18 +161,33 @@
         <div class="google-image text-center img-fluid" title="Google">
             <img src="./image/Google-logo.png" alt="google">
         </div>
-        <div class="input-group text-center form-group dropdown" id="input-text">
+        <div class="input-group d-flex form-group dropdown" id="input-text">
               <span class="fas fa-search input-group-text" style="margin-left: 2px;" ></span>
              <input  list="browsers" type="search" role="combobox" name="myBrowser" class="form-control" placeholder="Search Google or type a URL">
              <span class="fas fa-microphone input-group-text" ></span>
-            
+
+              <div class="flex-row " id="drop-down">
+                <div class="row" style="scroll-behavior: smooth; margin-left: 5px; " >
+                  <p class="search-item items" id="item1" style="float: left;">Hide search bar using htm css and java Scrpit <i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item2" style="float: left;">Watsapp web<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item3" style="float: left;">tutorial Point<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item4" style="float: left;">java Script class<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item5" style="float: left;">html tages<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item6" style="float: left;">Newton school<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item7" style="float: left;">Geeks for geeks<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+                  <p class="search-item items" id="item8" style="float: left;">w3school<i style="float: right; margin: 0; padding: 5px;" class="fad fa-times-circle"></i></p>
+               
+                </div>
+                
+              </div>
+          </div> 
+              
+               
+        </div>
         </div>
 
         <!-- drop down -->
-        <!-- <div class="s-drop d-flex flex-column bd-highlight mb-3" style="display: none;" id="drop-down">
-          
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velit rerum corrupti, aspernatur temporibus animi eaque? At laudantium, possimus officia reiciendis iure labore a voluptate quo provident placeat quasi nemo dolor obcaecati, nesciunt asperiores.</p>
-        </div> -->
+      
 
 
     </div>
@@ -184,71 +199,117 @@
     <!-- ********************************* start Bookmark area ************************************** -->
 
     <!-- we can put this style to create it flex box  -->
-    <div class="bookmarks " >
+    <div class="bookmarks " id="bookmar1" >
         <div class="row">
             <div class="col-md-4">
+              <a href="https://mail.google.com/mail/u/0/#inbox" style="text-decoration: none;"> 
                 <div class="site" title="Gmail">
-                    <i class="far fa-envelope fa"></i>
-                    <p>Gmail</p>
-                </div>
+                  <i class="far fa-envelope fa"></i>
+                  <p>Gmail</p>
+              </div>
+              </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail">
+                <a href="https://www.linkedin.com/in/md-istakhar-ansari-b47bab12a" style="text-decoration: none;">
+                  <div class="site" title="Gmail">
                   
                     <i class="fab fa-linkedin-in" style="color: blue;"></i>
-                    <p>LinkedIn</p>
+                    <p>LinkedIn </p>
                 </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail" >
-                
+                <a href="https://github.com/" style="text-decoration: none;">
+                  <div class="site" title="Gmail" >
                     <i class="fab fa-github-square"></i>
                     <p>Github</p>
                 </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail">
-             
+                <a href="https://www.google.com/search?q=slack&oq=sla&aqs=chrome.1.69i57j0i433l2j46i131i433j46i433j69i60l3.3285j0j7&sourceid=chrome&ie=UTF-8"  style="text-decoration: none;">
+                  <div class="site" title="Gmail">
                     <i class="fab fa-slack" style="color: rgb(240, 77, 36);"></i>
                     <p>Slack</p>
                 </div>
+                
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail">
+                <a href="https://twitter.com/login?lang=en" style="text-decoration: none;">
+                  <div class="site" title="Gmail">
           
                     <i class="fab fa-twitter" style="color:blue;"></i>
                     <p>Twitter</p>
                 </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail">
+                <a href="https://en-gb.facebook.com/" style="text-decoration: none;">
+                  <div class="site" title="Gmail">
                     
                     <i class="fab fa-facebook-square" style="color: blue;"></i>
                     <p>Facebook</p>
                 </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail">
+                <a href="https://www.youtube.com/" style="text-decoration: none;">
+                  <div class="site" title="Gmail">
                     <!-- <i class="fas fa-gmail"></i> -->
                     <i class="fab fa-youtube" style="color: red;"></i>
                     <p>Youtube</p>
                 </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="site" title="Gmail">
+                <a href="https://getbootstrap.com/"  style="text-decoration: none;">
+                  <div class="site" title="Gmail">
                     <!-- <i class="fas fa-gmail"></i> -->
                     <i class="fab fa-bootstrap" style="color: blueviolet"></i>
                     <p>Boostrap</p>
                 </div>
+                </a>
             </div>
         </div>
     </div>
     <!-- ********************************* End Bookmark area ************************************** -->
     <script>
+      
 
+
+
+      //search bar ka drop down ka code start
+
+      const foncont = document.querySelector('.form-control');
+      const dropdown1 = document.getElementById('drop-down');
+      const bokmark1= document.getElementById('bookmar1');
+      
+  
+
+      foncont.addEventListener('click',function(){
+
+        if(dropdown1.style.display ==="none"){
+         
+          dropdown1.style.display="block";
+          bokmark1.style.display="none";
+          }
+          else{
+            dropdown1.style.display="none";
+            bokmark1.style.display="block";
+          }
+          return false;
+
+      });
+
+
+
+      //search bar ka drop down ka code end
+
+        // side bar ka js code start
       const photoEl = document.querySelector('.gmail-img');
       const openbar1 = document.getElementById('openbar1');
-      
+      const openbar2 = document.getElementById('openbar2');
       const menuEl = document.querySelector('.menu');
 
       photoEl.addEventListener('click',function(){
@@ -282,7 +343,28 @@
 
 })
 
-      
+///body onclivk start  
+    // const body1 = document.querySelector('.body1');
+
+    // body1.addEventListener('click',function(){
+    //   if(openbar1.style.display==="block"){
+    //     openbar1.style.display="none";
+    //   }
+    //   if(openbar2.style.display==="block"){
+    //     openbar2.style.display="none";
+    //   }
+    //   if(dropdown1.style.display==="block"){
+    //     dropdown1.style.display="none";
+    //     bokmark1.style.display="block";
+
+    //   }
+    
+    
+    //     return false;
+
+    // });
+
+///body onclivk end      
 
 
     
